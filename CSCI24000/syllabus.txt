@@ -1,0 +1,104 @@
+This course focuses on the progress of computer science and programming from the simplest early languages through modern object-oriented languages. Students will gain fluency in at least three programming languages, from standard C through C++ to Java. The course then looks beyond specific programming languages towards a view of computing as a data science. You will investigate essential data structures and algorithms, which will truly begin your journey as a computer scientist.
+
+CSCI 24000 and the PUL
+All courses at IUPUI are intended to reflect a number of the Principles of Undergraduate Learning Links to an external site.(PULs) identified by the campus. CSCI 240 reinforces these principles:
+
+Core Communication and Quantitative Skills
+Critical Thinking
+Integration and Application of Knowledge
+Intellectual Depth, Breadth, and Adaptiveness
+Understanding Society and Culture
+Values and Ethics
+Section Information
+section	type	location	day(s)	time
+lecture	IO 105	TR	3:00 - 4:15
+lab	various	TR	4:30 - 5:45
+ 
+
+Instructor Information
+Lecture Instructor:
+Andy Harris
+email:
+ajharris@iupui.edu
+Office Hours:
+Tues - Thurs 10:30 - 12:00
+Office Location:
+SL 280 C
+Phone:
+(317) 274-8491
+(zoom) https://iu.zoom.us/my/andyharris
+TAs and Office Hours:
+https://iu.instructure.com/courses/2131288/pages/lab-assignments
+Textbook
+This course covers a very wide scope, and there is not really a single book designed to cover everything in this course. So we have selected four online books that we will use parts of. There will be selected readings from each of these books, linked in the module section as appropriate. You will not need to purchase anything, but this reading is NOT considered an optional part of this course, and readings are still required and expected.
+
+Essential C (http://cslibrary.stanford.edu/101/EssentialC.pdf)
+C Plus Plus Programming (https://en.m.wikibooks.org/wiki/C%2B%2B_Programming)
+Introduction to programming using Java (http://math.hws.edu/javanotes/index.html)
+Data Structures and Algorithms in Python (https://github.com/cjbt/Free-Algorithm-Books/blob/master/book/Data%20Structures%20and%20Algorithms%20in%20Python.pdf) (Note that DSA is language-independent, but Python is easy to read)
+While books are important, this is a programming course, so you will study a lot of code.  Every single demonstration program done in class will be available to download here:
+
+https://github.iu.edu/ajharris/240-Examples 
+
+You can learn a lot by downloading my code and experimenting with it yourself. We will explain how to get the most out of git in the first couple of weeks.  
+
+A note about Excellence
+This is a university-level science class in a very demanding discipline. It will be difficult (but possible) to get a good grade in this class. If you work hard, turn in all your homework, and show some skill, you should have no problem earning As and Bs on all assignments.
+
+That does not mean it is easy to earn a perfect score on any assignment (although it has been done on all of them.) Some students have expected to earn a perfect score when they fulfill all the requirements. That is not my policy. If you do all I ask, you will get a good grade. If you want 100%, you need to do something amazing.
+
+I will always give you a minimum set of expectations for assignments. If you fulfill all of those expectations, you will likely earn a B- or B for that project. If you do everything I ask, you will probably get an B. I reserve A's to reinforce brilliance. Many assignments have 'black-belt challenges,' which are suggestions for how you might choose to excel. Of course, there are many kinds of excellence. Whether and how you choose to go beyond the standard requirements is up to you.
+
+Late Policy
+Assignments are pulled from GitHub 1 minute after 11:59 PM of the due date. Late assignments will receive a grade of 0 unless a valid excuse is provided
+
+Attendance
+Computer science and computer programming are challenging topics. We will do our best to make sure the content of every single session is relevant and interesting. If you miss one session, you will fall behind. The topics tend to build on each other, so missing even one session can cause a ripple effect that can jeapordize the entire semester.
+
+Attendance in lecture sections are required for students enrolled in standard version of the course. Lab attendance is the number one predictor of student success, especially for students in the DE section. You are welcome to get more help from the lecturer or TAs during office hours or other scheduled times, but these are not an adequate replacement for participating in lab and lecture.
+
+This is not considered a beginning course in computer programming. I expect you are already reasonably fluent in a programming language. The specific language is not important, but you should be extremely comfortable with at least these ideas and constructs:
+
+Pseudocode - The ability to write a basic algorithm and then convert it into code
+Variables - variable types, scope, naming conventions
+Branching and looping - conditions, if / else, for, while
+Functions - parameters, return values, scope
+Debugging - printing output, code-tracing, using a debugger
+Arrays - standard arrays, dictionaries, multi-dimension arrays
+Code standards - documentation, indentation, commenting
+Academic Integrity
+Students are encouraged to discuss the concepts and principles amongst themselves. Such discussions help in understanding the material and/or different aspects of the topics taught in the class. Students may also assist in debugging each others code. It is unethical to directly transfer any portion of individual work products, either by printed or electronic means, between students. Student cooperation should not result in identical or near identical answers/code/documentation. 
+
+Students are welcome to work together in the algorithm phase of programming assignments, but you must do your own implementation of the algorithm. If two students turn in identical code, both will receive a zero until you have spoken to the instructor.
+
+You're welcome to utilize online or outside resources, but the following tenets of basic scholarship apply:
+
+Cite your source- if you use information from an external source, you must explicitly state where you got the material somewhere in your documentation. It is not necessary to cite materials from the lecture or book, as it's expected you will start with this material. However, if you turn in a project that is substantially copied from online material and you have not cited that source, the project will be considered plagiarism and will be cause for academic misconduct.
+Get permission as necessary - Either include a message of explicit permission from the original author or provide evidence of licensing that allows you use of the material.  (Creative commons, GNU, MIT, etc)
+Add to the work - Somehow you must improve the work.  Improvements cannot be simply cosmetic (changing variable names, constants, and text) but substantial changes. Such changes should be indicated in documentation. 
+Be able to explain all your code - You will be expected to be able to explain every line of code you submit.  If you have cited a library or function, a high-level overview is fine, but for any code that is not specifically cited, you should know how it works and why it is there.  Failure to explain significant parts of the code may be seen as academic misconduct.
+Utilize our coding standards- We have created a specific coding standard throughout the course, and you're expected to use these standards.  Code that differs explicitly from these standards will be suspicious.
+NOTE ABOUT NEW TECHNOLOGIES - 
+
+As computer scientists, we are very aware of tools like Google Co-Pilot and ChatGPT.  Such technologies can be helpful in creating software, but our assignments are not about creating software.  Our projects are about developing you as a programmer.  No AI tool can learn for you, nor can youtube videos or tutors.  You have to learn for yourself.  Any code submissions that appear to be from these resources will be rejected if you cannot explain the code.  Bad code is fine.  Code that doesn't work is fine.  If you are making mistakes, turn them in, so we can help and give them feedback.  Turning in great code you don't understand is a waste of your time and mine.
+
+ALL THE MATERIAL SUBMITTED FOR GRADING MUST BE YOUR OWN EFFORT.
+
+If this policy is violated then the following steps will be taken (at the instructor's discretion):
+
+rejection of submitted material with an opportunity for resubmission for a reduced grade
+reduction of points by dividing by the number of students involved in an incident
+assignment of a grade of ZERO for all students involved in an incident
+assignment of a grade of F for the course
+initiation of official action against all students involved in an incident.
+Internet use warning: The Computer Science department is particularly sensitive to dishonest leveraging of the Internet. Presenting information obtained from the Internet as your own is just as severe as claiming another student's work as your own. It is extremely important to cite works from the Internet or other resources when they are the basis for your own work. Your Internet research should not result in work products that are in identical or near identical to the original. Posting any part of the course including homework, exams, or projects is forbidden. Submitting any part of the course to code-for-hire or other support web sites is forbidden. Accessing any online chat, user forum, AI, IRC, or any other interactive discussions during online testing is prohibited.
+
+Adaptive Services
+IUPUI and the Computer Science Department are dedicated to ensuring all students perform to their maximum potential. If you have need of additional support because of a disability, please contact Adaptive Educational Services (http://aes.iupui.edu/Links to an external site.) A counselor can help you come up with a plan appropriate for your needs, and we will be happy to work with you in these matters. If you are interested in this type of accomodation, it is your responsibility to contact AES. Please see me if you need help getting a connection with AES services.
+
+Note for Spring 2023
+The plan for this semester is to meet in person on campus in the lecture rooms and the recitations.  You will be expected to follow the masking requirements of the campus as they might change throughout the semester.
+
+If it becomes necessary to move to a partially asynchronous model, or if you find yourself quarantined, the lecture material will all be available as recorded videos on the canvas site.
+
+If you find yourself sick or needing to care for a sick person in your household, please contact me so we can make appropriate arrangements.
