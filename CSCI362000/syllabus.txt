@@ -1,0 +1,123 @@
+All classes will be in person (only), and there will be no Zoom recordings of the class lectures.
+
+All lecture slides will be uploaded (before each class) in the Files section.
+
+ 
+
+Textbook(s): 
+
+Mark Allen Weiss, Data structures and algorithm analysis in C++,  4th edition, Pearson, Addison Wesley
+
+T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, Introduction to Algorithms, MIT Press, Third Edition, 2009.
+
+ 
+
+Grading
+
+Main grading factors: homework (40%), midterm exam (20%), final exam (40%)
+
+Each assignment will be graded at 100% of its full intended grade when submitted before the due time. Each week of delay in its submission will yield 20% reduction of the maximum possible grade; for example, an assignment with max. grade 10 points (before the due time), will become max. 8 points for the first week of delayed submission, 6 points for the second week, 4 points for the third week, etc.
+
+ 
+
+Assignment submission requirements
+
+-- all assignment implementations will be in c++
+
+-- all assignments MUST be compiled on Tesla: ssh port 1294
+
+-- each submission should have your code as well as a screen recording of compilation/execution
+
+Failure to meet any of these requirements may not count as a valid submission. If you have any issues, please contact the corresponding TA.
+
+ 
+
+Virtual office hours:
+
+Instructor: by appointment, online (email and schedule)
+
+ 
+
+TA assignments and office hours (by student's last name initial):
+
+A -- K : Jay Vatti: Tuesdays 11:30AM-1:30PM - Hine Hall, Room IP106  (Idea Garden)Links to an external site.
+
+L -- Z : Gregory Long: Thursdays 12:00-2:00p Zoom: https://iu.zoom.us/j/81018445495Links to an external site.Links to an external site.
+
+Theint Nwe Nyein: Mondays 2:30-4:30p. Zoom: https://iu.zoom.us/j/4047244179?pwd=aUF5RDFhVkk1YVNybnp2THNSdGV3UT09Links to an external site. 
+
+ 
+
+Course material:
+
+Enhanced Programming: Array, Structure/class, Pointer, Function, A Brief Introduction to Recursion
+
+Algorithm Analysis:  Mathematical Background Model, What to Analyze, Running Time Calculations
+
+Lists, Stacks, and Queues :  The List, vector and list, Implementation of vector, Implementation of list
+
+Trees, Preliminaries, Binary Trees, The Search Tree - Binary Search Trees, AVL Trees
+
+Priority Queues (Heaps) :  Model, Simple Implementations, Binary Heap, Applications of Priority Queues
+
+Hashing :  General Idea, Hash Function, Separate Chaining, Hash Tables Without Linked Lists
+
+Sorting :  Preliminaries, Insertion Sort, Merge sort, Quicksort, Indirect Sorting, External Sorting
+
+ Graph Algorithms :  Definitions, Topological Sort, Shortest-Path Algorithms, Network Flow, Problems, Minimum Spanning Tree
+
+File Structure: Secondary storage, File structure and access, File processing, Indexing, Multilevel indexing, File based sorting
+
+ 
+
+Assignments:
+
+Iteration vs recursion and runtime analysis
+
+TBD (algorithms & complexity)
+
+N Queens problem
+
+BST k-th smallest element
+
+B-trees, build and search
+
+Heaps, merging.
+
+Hashing, dictionary/spell checker
+
+ 
+
+ 
+
+------------------------------------------------------------------------------------
+
+Policy on Academic Dishonesty in the Department of Computer and Information Science at IUPUI
+
+The faculty in the Department of Computer and Information Science (henceforth, referred to as the department) values academic honesty to be absolutely essential and expects all students to conform to it. Any violation of academic integrity is considered a serious offense and will result in severe consequences. 
+
+The policy against violations of academic integrity will be enforced at the departmental level across all courses.  If a student does not abide by this policy then, for the first violation, he/she will receive zero points for the component of the course on which academic misconduct occurred and will be reported to the Department Chairperson. If the violation is not related to a specific assignment or exam, the course instructor reserves the right to impose the zero-point penalty to any component of the course. For a second violation of academic integrity (occurring anywhere in the graduate or undergraduate curriculum, in the same or a different semester, in the same or a different course), the student will receive a failing grade for the course where the second violation occurred, as enforced by the Department Chair and the School of Science Dean’s Office, and, in addition, an official reporting process will be initiated by the Department Chair as per IUPUI's Student Conduct Policies: http://studentaffairs.iupui.edu/student-rights/student-code/ (Links to an external site.)Links to an external site.. For a third violation, the department will initiate dismissal request from the program which the student is enrolled in. In all cases of academic integrity violation, the involved student will be notified in writing at the time the offense is observed. This is the minimal policy and the department reserves the right to impose more severe penalties for the first and/or second offense of academic misconduct.  
+
+The student will have opportunities to file appeals at the department, the school, and the university levels, to contest the academic dishonesty finding and/or the imposed penalty. At the department level, any appeal will be made to the department’s graduate or undergraduate committees respectively, depending on whether the student is a graduate or an undergraduate student. The graduate or undergraduate committee chair will substitute any committee members involved in the penalty imposition process with other faculty members with no conflicts of interest before processing the appeal. If desired, a student can pursue a further appeal to the School of Science Appeals Committee. Finally, the student can also submit an appeal to the IUPUI Appeals Committee.
+
+More resources: http://registrar.iupui.edu/course_policies.html (Links to an external site.)Links to an external site.
+
+Accommodations: Every attempt will be made to accommodate students with disabilities (e.g. mental health, learning, chronic health, physical, hearing, vision, neurological, etc.) You must have established your eligibility for support services through the Adaptive Educational Services office that serves students with disabilities. Note that services are confidential, may take time to put into place and are not retroactive; Captions and alternate media for print materials may take three or more weeks to get produced. Please contact AES office as soon as possible if accommodations are needed. AES is located in Room 100 Taylor Hall – phone: 317-274-3241.
+
+------------------------------------------------------------------------------------
+
+Sexual misconduct
+
+As your instructor, one of my responsibilities is to create a positive learning environment for all students. Title IX and IU’s Sexual Misconduct Policy prohibit sexual misconduct in any form, including sexual harassment, sexual assault, stalking, and dating and domestic violence.  If you have experienced sexual misconduct, or know someone who has, the University can help.
+
+If you are seeking help and would like to speak to someone confidentially, you can make an appointment with:
+
+Counseling & Psychological Services (CAPS) at 317-274-2548 (counseling services)
+
+Confidential Advocacy Resources at 317-274-2503 (advocacy and advice services)
+
+IUPUI Student Health Center at 317-274-2274 (University Blvd. location) or  317-274-8214 (West Michigan St. location) (health and medical services)
+
+It is also important that you know that Title IX and University policy require me to share any information brought to my attention about potential sexual misconduct, with the campus Deputy Title IX Coordinator or IU’s Title IX Coordinator.  In that event, those individuals will work to ensure that appropriate measures are taken and resources are made available.   Protecting student privacy is of utmost concern, and information will only be shared with those that need to know to ensure the University can respond and assist. 
+
+I encourage you to visit stopsexualviolence.iu.edu (Links to an external site.) to learn more.
