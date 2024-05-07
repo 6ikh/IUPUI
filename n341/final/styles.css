@@ -1,0 +1,169 @@
+/*
+TITLE: styles.css
+AUTHOR: Parmindar Singh (PS)
+CREATE DATE: 20 April 2024
+PURPOSE: Gas Station Pump for customers to choose which fuel grade and check out, the styling
+LAST MODIFIED ON: 27 April 2024
+LAST MODIFIED BY: Parmindar Singh (PS)
+MODIFICATION HISTORY:
+20 April 2024: Initial creation of the HTML file. (PS)
+27 April 2024: Transfered everything from personal vscode (PS)
+*/
+
+/* Theme: This theme will be for a gas station were customers can check out food and purchase gas, currently I have created the gas part but will add more on */
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.demoHeaders {
+    margin-top: 2em;
+}
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+#icons {
+    margin: 0;
+    padding: 0;
+}
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+select {
+    width: 200px;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+h1, h2 {
+    color: #333;
+}
+  
+.button-container {
+    display: flex; 
+    justify-content: space-between;
+}
+  
+button {
+    width: calc(40% - 40px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+/* Styling for Regular button */
+#regularBtn {
+    background-color: red;
+    color: black;
+}
+  
+/* Styling for Premium button */
+#premiumBtn {
+    background-color: blue;
+    color: white;
+}
+  
+/* Styling for Diesel button */
+#dieselBtn {
+    background-color: green;
+    color: white;
+}
+  
+/* Styling for E85 button */
+#e85Btn {
+    background-color: yellow;
+    color: black;
+}
+  
+/* Transaction details */
+#transaction {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+#transaction p {
+    margin: 5px 0; /* Adjusted margin for transaction details paragraphs */
+}
+
+/* Transaction history list */
+#transactionList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#transactionList li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+/* Styling for feedback form */
+#feedbackForm {
+    margin-top: 20px;
+}
+
+#feedbackForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#feedbackInput {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#feedbackForm button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#feedbackForm button:hover {
+    background-color: #555;
+}

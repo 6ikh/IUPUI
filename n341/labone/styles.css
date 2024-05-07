@@ -1,0 +1,64 @@
+/**************************************
+TITLE: Lab 1 - Expressions, Functions and Objects
+AUTHOR: Parmindar Singh PS
+CREATE DATE: 25 Jan 2024
+PURPOSE: CSS code for styling of a Barber Shop
+LAST MODIFIED ON: 28 Jan 2024 
+LAST MODIFIED BY: Parmindar Singh PS
+MODIFICATION HISTORY:(3)
+<list the dates of each modification, explain each and give the initials of the programmer who made each modification>
+25 Jan 2024 - Created the File PS
+28 Jan 2024 - Transfered code from VSCode and tested everything PS
+**************************************/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.service {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#cart {
+    margin-top: 30px;
+}
+
+#cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-list li {
+    margin: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+

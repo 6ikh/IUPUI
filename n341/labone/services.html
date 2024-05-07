@@ -1,0 +1,80 @@
+<!-- 
+TITLE: Lab 1 - Expressions, Functions and Objects
+AUTHOR: Parmindar Singh PS
+CREATE DATE: 25 Jan 2024
+PURPOSE: Services html page to show what options the Barber shop has to offer
+LAST MODIFIED ON: 28 Jan 2024 
+LAST MODIFIED BY: Parmindar Singh PS
+MODIFICATION HISTORY:(3)
+<list the dates of each modification, explain each and give the initials of the programmer who made each modification>
+25 Jan 2024 - Created the File PS
+28 Jan 2024 - Transfered code from VSCode and tested everything PS
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Barber Shop Services</title>
+</head>
+<body>
+
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <div class="container">
+        <div class="service" data-service-id="1">
+            <h2>Classic Haircut</h2>
+            <p>$20.00</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="service" data-service-id="2">
+            <h2>Beard Trim</h2>
+            <p>$15.00</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+        <div class="service" data-service-id="3">
+            <h2>Hot Towel Shave</h2>
+            <p>$20.00</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+        <div class="service" data-service-id="4">
+            <h2>Facial Grooming</h2>
+            <p>$15.00</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+        
+        <!-- Cart section -->
+        <div id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-list"></ul>
+            <p id="total">Total: $0.00</p>
+            <button onclick="clearCart()">Clear Cart</button>
+            <button onclick="window.location.href='add_content.html'">Back to Homepage</button> <!-- works on my local machine-->
+        </div>
+
+        <!-- Output section for the variables -->
+        <div id="output">
+            <h2>Barber's Haven</h2>
+            <div id="elOutput1"></div>
+            <div id="elOutput2"></div>
+            <div id="elOutput3"></div>
+            <div id="elOutput4"></div>
+            <div id="elOutput5"></div>
+            <div id="elOutput6"></div>
+            <div id="elOutput7"></div>
+            <div id="elOutput8"></div>
+            <div id="elOutput9"></div>
+            <div id="elOutput10"></div>
+            <div id="elOutput11"></div>
+            <div id="elOutput12"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

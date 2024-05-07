@@ -1,0 +1,26 @@
+/***********************************************
+TITLE: Getting Started Lab
+AUTHOR: Parmindar Singh (PM)
+CREATE DATE: 12 Jan 2024
+PURPOSE: Using CSS to modify how the html webpage looks like   
+LAST MODIFIED ON: 13 Jan 2024
+LAST MODIFIED BY: Parmindar Singh (PM)
+MODIFICATION HISTORY:
+12 Jan 2024 - Added the header of the file (PM)
+12 Jan 2024 - Added the main CSS code (PM)
+12 Jan 2024 - Added comments to each line of code (PM)
+13 Jan 2024 - Attempted to make the id color the same as background but did not work so deleted it (PM)
+14 Jan 2024 - None
+*************************************************/
+
+
+body {  /* This rule will target the body element in my HTML doc and will set the background color of the body element to powderblue color */ 
+    background-color: powderblue;
+  }
+  h1 {  /* This rule will target the h1 element in my HTML doc and will set the text color of the h1 element to black color */ 
+    color: black;
+  }
+  p {   /* This rule will target the p element in my HTML doc and will set the text color of the p element to black color */ 
+    color: black;
+  }
+  

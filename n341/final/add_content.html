@@ -1,0 +1,76 @@
+<!-- 
+TITLE: add_content.html
+AUTHOR: Parmindar Singh (PS)
+CREATE DATE: 20 April 2024
+PURPOSE: Gas Station Pump for customers to choose which fuel grade and check out
+LAST MODIFIED ON: 27 April 2024
+LAST MODIFIED BY: Parmindar Singh (PS)
+MODIFICATION HISTORY:
+20 April 2024: Initial creation of the HTML file. (PS)
+27 April 2024: Transfered everything from personal vscode (PS)
+--> 
+
+<!-- Theme: This theme will be for a gas station were customers can check out food and purchase gas, currently I have created the gas part but will add more on --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Kum & Go!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome To Kum & Go!</h1>
+    <div id="fuelPump">
+      <h2>Fuel Pump</h2>
+      <div class="button-container">
+        <button id="regularBtn" class="fuelButton">Regular ($2.50/gallon)</button>
+        <button id="premiumBtn" class="fuelButton">Premium ($3.00/gallon)</button>
+        <button id="dieselBtn" class="fuelButton">Diesel ($2.75/gallon)</button>
+        <button id="e85Btn" class="fuelButton">E85 ($1.85/gallon)</button>
+      </div>
+    </div>
+    <div id="transaction">
+      <h2>Transaction Details</h2>
+      <p id="fuelType"></p>
+      <p id="fuelAmount"></p>
+      <p id="totalCost"></p>
+      <ul id="transactionList"></ul> <!-- Transaction history list -->
+    </div>
+    <!-- Requirement #21: Create a form that is enhanced using an API. The form should contain at least five different types of fields. Form enhancement must be visible.-->
+    <div id="feedbackForm">
+      <h2>Feedback Form</h2>
+      <form id="myForm" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br><br>
+        <label id="services">Select Gas Choosen:</label>
+        <select id="selectmenu" name="Service" required>
+            <option value="" disabled selected>Gas Option</option>
+            <option value="regular">Regular</option>
+            <option value="premium">Premium</option>
+            <option value="diesel">Diesel</option>
+            <option value="e85">E85</option>
+        </select><br><br>
+        <label>Today's Date:</label>
+        <input type="text" name="Date" id="datepicker" required><br><br>
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="Comments" rows="4" cols="50"></textarea><br><br>
+        <input type="reset" value="Reset">
+        <input id="button" type="submit" value="Submit">
+      </form>
+    </div>    
+  </div>
+  <p> Feedback Confirmation: </p>
+  <div class="output" id="outputArea"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> <!-- Include jQuery library -->
+<script src="theme/jquery-ui.js"></script>
+<link href="theme/jquery-ui.css" rel="stylesheet">
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
+</body>
+</html>

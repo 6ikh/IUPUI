@@ -1,0 +1,88 @@
+/*
+TITLE: styles.css
+AUTHOR: Parmindar Singh (PS)
+CREATE DATE: 03 Mar 2024
+PURPOSE: Styling of the buttons and text, wanted to add an image but I have to figure that out 
+LAST MODIFIED ON: 09 Mar 2024
+LAST MODIFIED BY: Parmindar Singh (PS)
+MODIFICATION HISTORY:
+03 Mar 2024: Initial creation of the CSS file. (PS)
+09 Mar 2024: Transfered everything from personal vscode (PS)
+
+**************************************/
+
+/* Theme: This theme will be for a gas station were customers can check out food and purchase gas, currently I have created the gas part but will add more on */
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px; /* Increased max-width for wider container */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the content */
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  button {
+    width: calc(40% - 40px); /* Adjusted width for each button */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for Regular button */
+  #regularBtn {
+    background-color: red;
+    color: black;
+  }
+  
+  /* Styling for Premium button */
+  #premiumBtn {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Styling for Diesel button */
+  #dieselBtn {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Styling for E85 button */
+  #e85Btn {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /* Transaction details */
+  #transaction {
+    text-align: center;
+    margin-top: 20px; /* Space between buttons and transaction details */
+  }
+  
+  #transactionDetails {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

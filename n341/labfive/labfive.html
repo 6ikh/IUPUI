@@ -1,0 +1,74 @@
+<!--
+TITLE: labfive.html
+AUTHOR: Parmindar Singh (PS)
+PURPOSE: Main Html file for Labfive
+ORIGINALLY CREATED ON: 13 April 2024
+LAST MODIFIED ON: 14 April 2024 (PS)
+LAST MODIFIED BY: Parmindar Singh (PS)
+MODIFICATION HISTORY: 
+13 Apr 2024 - Creation Date (PS)
+14 Apr 2024 - Transfered everything from personal VsCode (PS)
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Shop Form</title>
+</head>
+<body>
+<!-- Requirement #2: Your page must use the same theme as your previous labs. Please describe your theme in an HTML comment. -->
+<!-- My theme is a barber shop were a customer can select a service and easily book an appoinment for that service including their personal information-->
+
+<!-- Requirement #14: Tested in Microsoft Edge and Chrome, both work well and show the same-->
+
+<!-- Requirement #4: Use either an Accordion WidgetLinks or a Tabs WidgetLinks  as a larger navigation scheme. -->
+<div id="accordion">
+  <h3>Barber Haven Online Appointment Service:</h3>
+  <div>We offer a variety of services including haircuts, shaves, beard trims, and facial grooming.</div>
+</div>
+<!-- Requirement #7: In your form, include the following:-->
+<form id="myForm" method="get">
+  <label for="name">Name:</label>
+<!-- Requirement #6: Include at least three of the following input fields-->
+  <input type="text" id="name" name="Name" required><br><br>
+<!-- Requirement #6: Include at least three of the following input fields-->
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="Email" required><br><br>
+<!-- Requirement #6: Include at least three of the following input fields-->
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br><br>
+<!-- Requirement #5: Use at least one of the following jQuery UI Widgets: Datepicker Widget-->
+  <label>Appointment Date:</label>
+  <input type="text" name="Date" id="datepicker" required><br><br>
+
+  <label id="services">Select Service:</label>
+  <select id="selectmenu" name="Services" required>
+    <option value="" disabled selected>Select Service</option>
+    <option value="haircut">Haircut</option>
+    <option value="shave">Hot Towel Shave</option>
+    <option value="beard-trim">Beard Trim</option>
+    <option value="facial">Facial Grooming</option>
+  </select><br><br>
+
+  <label for="comments">Additional Comments:</label><br>
+  <textarea id="comments" name="Comments" rows="4" cols="50"></textarea><br><br>
+<!-- Requirement #7: In your form, include the following:-->
+  <input type="reset" value="Reset">
+  <input id="button" type="submit" value="Submit">
+</form>
+<!-- Requirement #8: Create an output area that is separate from the form on your page. This area should be blank until the user submits the form.-->
+<p> Appointment Confirmation: </p>
+<div class="output" id="outputArea"></div>
+
+<!-- Requirement #3: Include the Google-hosted jQuery library before your JS file in your HTML.-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="theme/jquery-ui.js"></script>
+<link href="theme/jquery-ui.css" rel="stylesheet">
+<script src="labfive.js"></script>
+<link href="./css/labfive.css" rel="stylesheet">
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!-- 
+TITLE: add_content.html
+AUTHOR: Parmindar Singh (PS)
+CREATE DATE: 03 Mar 2024
+PURPOSE: Gas Station Pump for customers to choose which fuel grade and check out
+LAST MODIFIED ON: 09 Mar 2024
+LAST MODIFIED BY: Parmindar Singh (PS)
+MODIFICATION HISTORY:
+03 Mar 2024: Initial creation of the HTML file. (PS)
+09 Mar 2024: Transfered everything from personal vscode (PS)
+
+--> 
+
+<!-- Theme: This theme will be for a gas station were customers can check out food and purchase gas, currently I have created the gas part but will add more on --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Kum & Go!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome To Kum & Go!</h1>
+    <div id="fuelPump">
+      <h2>Fuel Pump</h2>
+      <div class="button-container">
+        <button id="regularBtn" class="fuelButton">Regular ($2.50/gallon)</button>
+        <button id="premiumBtn" class="fuelButton">Premium ($3.00/gallon)</button>
+        <button id="dieselBtn" class="fuelButton">Diesel ($2.75/gallon)</button>
+        <button id="e85Btn" class="fuelButton">E85 ($1.85/gallon)</button>
+      </div>
+    </div>
+    <div id="transaction">
+      <h2>Transaction Details</h2>
+      <p id="fuelType"></p>
+      <p id="fuelAmount"></p>
+      <p id="totalCost"></p>
+    </div>
+    <div id="feedbackForm">
+        <h2>Feedback Form</h2>
+        <form id="feedback">
+          <label for="feedbackInput">Enter your feedback:</label><br>
+          <textarea id="feedbackInput" name="feedback" rows="4" cols="50"></textarea><br>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

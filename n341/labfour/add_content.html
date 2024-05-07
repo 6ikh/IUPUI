@@ -1,0 +1,71 @@
+<!--
+TITLE: add_content.html
+AUTHOR: Parmindar Singh PS
+CREATE DATE: 24 Mar 2024
+PURPOSE: Jquery javascript
+LAST MODIFIED ON: 31 Mar 2024
+LAST MODIFIED BY: Parmindar Singh PS
+MODIFICATION HISTORY:
+- 27 Mar 2024: Create date
+- 31 Mar 2024: Transfered everything from personal vscode
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #services {
+            cursor: pointer;
+        }
+    </style>  
+</head>
+<!-- Req #2: Your page must use the same theme as your previous labs. Please describe your theme in an HTML comment. Each requirement must reflect your chosen theme -->
+<!-- My theme is a barber shop landing page with the services that are offered along with an option to sign up for a newsletter -->
+<body>
+<div id="header">
+    <h1>Barber Haven, Downtown Indy</h1>
+</div>
+<main>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p class="message">Tap in with the best barber in Indy!</p>
+        <ul>
+            <li class="content">Classic Haircut:  A timeless haircut tailored to your preferences. Our skilled barbers will create a classic look that suits your style.</li>
+            <li class="content">Beard Trim: Shape and groom your beard with precision. Our barbers will enhance your facial hair to achieve a polished and well-maintained appearance.</li>
+            <li class="content">Hot Towel Shave: Enjoy a luxurious hot towel shave experience. Relax as our barbers provide a close and refreshing shave using hot towels for a smooth finish.</li>
+            <li class="content">Facial Grooming: Pamper your face with our facial grooming services. From eyebrow shaping to facial hair maintenance, we'll enhance your facial features for a polished appearance.</li>
+        </ul>
+        <button id="button">Click Me</button>
+    </section>
+    <section id="newsletter">
+        <h2>Sign Up for Our Newsletter</h2>
+        <form id="newsletterForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+</main>
+<div id="footer">
+    <p>&copy; 2024 Barber Haven. All rights reserved.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--Requirement 23: Using a jQuery plugin-->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    $(function() {
+        $('#services').click(function() {
+            $(this).effect('fold');
+        });
+    });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

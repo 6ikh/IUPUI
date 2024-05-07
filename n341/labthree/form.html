@@ -1,0 +1,57 @@
+<!-- TITLE: Lab 3 - JavaScript Events
+AUTHOR: Parmindar Singh PS
+CREATE DATE: 22 Feb 2024
+PURPOSE: Main Webpage of the barber shop
+LAST MODIFIED ON: 25 Feb 2024 
+LAST MODIFIED BY: Parmindar Singh
+MODIFICATION HISTORY:(3)
+22 Feb 2024 - Created the File PS
+22 Feb 2024 - Transferred code from VSCode and tested everything PS 
+25 Feb 2024 - Added a new button for the homepage page PS-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact - Barber's Haven</title>
+</head>
+<body>
+
+    <!-- Theme: Classic Barber Shop -->
+    <header class="hero">
+        <h1>Welcome to Barber's Haven</h1>
+        <p>Your go-to place for grooming and style.</p>
+    </header>
+
+    <main>
+        <section id="contact" class="content">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <button onclick="window.location.href='add_content.html'">Back to Homepage</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Barber's Haven</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
