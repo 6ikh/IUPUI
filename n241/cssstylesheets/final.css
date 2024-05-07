@@ -1,0 +1,150 @@
+/* final.css, External Stylesheet */
+/* CSS-style Comment */
+/* Stylesheets has styles for each class and id of the Kum & Go site */
+
+body {
+    /* Typography */
+    font-family: Arial, sans-serif;
+    background-color: red;
+    color: white;
+}
+/* Styling for a container */
+.container  {
+    display: inline-block;
+    height: auto;
+}
+/* Centering and defining width for  specific container */
+.containers {
+    margin: 0 auto; 
+    width: 80%; 
+}
+/* Styling for the header */
+#header {
+    font-size: x-large;
+    text-align: center;
+}
+
+/* Style Overriding */
+/* Styling for paragraphs */
+p {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+/* Styling for heading level 3 */
+h3{
+    text-align: left;
+    font-size: small;
+}
+/* Styling for definition terms */
+dt {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Styling for definition descriptions */
+dd {
+    text-align: center;
+    font-size: large;
+    font-size: 20px;
+}
+/* Styling for the footer */
+footer{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+/* Styling for date and time section */
+#datetime {
+    text-align: center;
+    font-size: xx-large;
+}
+/* Styling for main content section */
+.main-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* Styling for sub-content section */
+.sub-content {
+    margin-bottom: 20px;
+}
+/* Styling for sub-text */
+.sub-text{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+/* Styling for tables */
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* Styling for images */
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Styling for images */
+.imagez {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* Styling for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFFF;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/* CSS Roll-over Effect Using HTML5 Standards */ 
+.button:hover{
+    background-color: grey;
+
+}
+/* Styling for input fields */
+.input-field {
+    width: 320px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+/* Styling for left-aligned elements */
+.left-align {
+    text-align: left;
+}
+/* Styling for rating form */
+#ratingForm {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+}
+/* Styling for cart section */
+#cart {
+    padding: 10px; 
+    width: 70%
+}
+/* Additional CSS styles for the layout */
+/* Styling for snack and drink sections */
+.snacks, .drinks {
+    float: left;
+    width: 48%; 
+    margin-right: 2%; 
+}
+/* Styling for drink section */
+.drinks {
+    float: right;
+    margin-right: 2%;
+}

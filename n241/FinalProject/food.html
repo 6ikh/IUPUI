@@ -1,0 +1,205 @@
+<!--
+ Filename: food.html
+ Author: Parmindar Singh (PS)
+ Create Date: April 1 2024
+ Purpose: The user can check out food and purchase them
+ Modification History: 
+ 1 April 2024 - Creation Date (PS)
+ 20 April 2024 - Transfered from VsCode (PS)
+ 22 April 2024 - Fixed Styling issues and file locations (PS)
+-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI-N241 Final Project Food Page </title> 
+    <link rel="stylesheet" type="text/css" href="../cssstylesheets/final.css"> <!-- Linking an external CSS stylesheet -->
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <h1> Grab Some Snacks!</h1>
+        <div id="datetime"></div>
+    </div>
+    <!-- Navigation buttons -->
+    <table id="table"> 
+        <tr>
+            <!-- Buttons for Home, Gas, Food, Attraction Links -->
+            <th>
+              <a href="home.html" class="button">Home</a>
+            </th>
+            <th>
+              <a href="gas.html" class="button">Gas</a>
+            </th>
+            <th>
+              <a href="food.html" class="button">Food</a>
+            </th>
+            <th>
+              <a href="attractions.html" class="button">Attractions</a>
+            </th>
+        </tr>
+    </table>
+    <!-- Containers for the shopping cart and instructions -->
+    <div class="containers">
+        <!-- Shopping Cart section -->
+        <h1>Shopping Cart</h1>
+        <div class="main-content">
+            <!-- Sub-content for cart items and total -->
+            <div class="sub-content" id="cart"></div>
+            <div id="total"></div>
+            <!-- Buttons for payment -->
+            <button onclick="payWithCash()" class="button">Pay with Cash</button>
+            <button onclick="payWithCard()" class="button">Pay with Card</button>
+        </div>
+        <!-- Instructions section -->
+        <div class="main-content">
+            <h2>Please Review Our Instructions Below:</h2>
+        </div>
+        <!-- Ordered list for instructions -->
+        <ol id="ollist">
+            <li><h3>Please View Our Inventory</h3></li>
+            <li><h3>Enter Your Desired Number Of Product In The Input Field</h3></li>
+            <li><h3>Recheck Your Shopping Cart</h3></li>
+            <li><h3>Click The Button To Pay & Enjoy!</h3></li>
+        </ol>
+        <!-- Snacks section -->
+            <div class="snacks">
+                <h2>Snacks</h2>
+                <div class="sub-content">
+                    <!-- Listed items for snack items with input fields -->
+                    <ul id="ullist">
+                        <li style="font-weight: bold;">Flamin Hot Cheetos $2.50</li>
+                    </ul>
+                    <input type="number" class="quantity" id="snack1Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Cool Ranch Dorritos $2.50</li>
+                    </ul>
+                    <input type="number" class="quantity" id="snack2Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Honey Buns $1.50</li>
+                    </ul>
+                    <input type="number" class="quantity" id="snack3Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Buttery Popcorn $2.25</li>
+                    </ul>
+                    <input type="number" class="quantity" id="snack4Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Fruit Snacks $2.25</li>
+                    </ul>
+                    <input type="number" class="quantity" id="snack5Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Trail Mix $2.50</li>
+                    </ul>   
+                    <input type="number" class="quantity" id="snack6Quantity" value="0">
+                </div>
+            </div>
+            <!-- Drinks section -->
+            <div class="drinks">
+                <h2>Drinks</h2>
+                <div class="sub-content">
+                    <!-- Listed items for drink items with input fields -->
+                    <ul>
+                        <li style="font-weight: bold;">Water $1.00</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink1Quantity" value="0">
+                
+                    <ul>
+                        <li style="font-weight: bold;">Coconut Water $2.00</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink2Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Iced Coffee</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink3Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Iced Tea $1.75</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink4Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Coke $1.50</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink5Quantity" value="0">
+                    <ul>
+                        <li style="font-weight: bold;">Fanta $1.50</li>
+                    </ul>
+                    <input type="number" class="quantity" id="drink6Quantity" value="0">
+                </div>
+            </div>
+    </div>
+    
+    <!-- JavaScript script for cart functionality -->
+    <script id="jsscript">
+        // Function to get the price of an item based on its ID
+        function getItemPrice(itemId) {
+            // Define prices for each item based on their IDs
+            const prices = {
+                'snack1Quantity': 2.50,
+                'snack2Quantity': 2.50,
+                'snack3Quantity': 1.50,
+                'snack4Quantity': 2.25,
+                'snack5Quantity': 2.25,
+                'snack6Quantity': 2.50,
+                'drink1Quantity': 1.00,
+                'drink2Quantity': 2.00,
+                'drink3Quantity': 2.50,
+                'drink4Quantity': 1.75,
+                'drink5Quantity': 1.50,
+                'drink6Quantity': 1.50
+            };
+    
+            // Get the price based on the itemId
+            if (prices.hasOwnProperty(itemId)) {
+                return prices[itemId];
+            } else {
+                console.error("Price not found for item ID:", itemId);
+                return 0; // Default to 0 if price is not found
+            }
+        }
+        // Function to update the shopping cart based on user input
+        function updateCart() {
+            const cartItems = [];
+            let totalPrice = 0; // Variable to store the total price
+    
+            document.querySelectorAll('.quantity').forEach(input => {
+                const quantity = parseInt(input.value);
+                if (quantity > 0) {
+                    const itemName = input.parentNode.textContent.trim();
+                    const itemPrice = getItemPrice(input.id); // Get the price based on the ID
+                    const subtotal = quantity * itemPrice;
+                    totalPrice += subtotal; // Add subtotal to the total price
+                    cartItems.push(`${itemName} - Quantity: ${quantity} - Subtotal: $${subtotal.toFixed(2)}`); // Display subtotal
+                }
+            });
+    
+            document.getElementById('cart').innerHTML = cartItems.join('<br>');
+            document.getElementById('total').innerHTML = `Total: $${totalPrice.toFixed(2)}`; // Display total
+        }
+    
+        // Function to update the cart whenever quantity changes
+        document.querySelectorAll('.quantity').forEach(input => {
+            input.addEventListener('input', updateCart);
+        });
+        // Function to handle payment with cash
+        function payWithCash() {
+            alert("Thank you for shopping with us!");
+            // Reset quantities and clear cart
+            document.querySelectorAll('.quantity').forEach(input => input.value = 0);
+            document.getElementById('cart').innerHTML = '';
+            document.getElementById('total').innerHTML = '';
+        }
+        // Function to handle payment with card
+        function payWithCard() {
+            alert("Thank you for shopping with us!");
+            // Reset quantities and clear cart
+            document.querySelectorAll('.quantity').forEach(input => input.value = 0);
+            document.getElementById('cart').innerHTML = '';
+            document.getElementById('total').innerHTML = '';
+        }
+    </script>
+<!-- External JavaScript file -->    
+<script src="script.js"></script>
+</body>
+</html>

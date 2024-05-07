@@ -1,0 +1,82 @@
+<!--
+ Filename: movies.html
+ Author: Parmindar Singh
+ Purpose: movies link that is linked to the listlesslinks.html. a user will click it and be redirect here in a new tab
+ Modification History: 
+ 29 Jan 2024: Create Date
+ 29 Jan 2024: Included a title
+ 29 Jan 2024: Update the entire code and added the styles and the functionality
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie & Show Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .movie-card {
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .movie-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Movie/TV Show Involvement</h1>
+    </header>
+
+    <div class="movie-container">
+        <div class="movie-card">
+            <div id="shows"><img src = "images/fashion.jpg" alt="shows" /></div>
+            <p>These days, sometimes it's harder than ever to tell what's haute and what's naute -- erm, not. To make sure you're on top of it all, Joan Rivers and her team (which consists of Kelly Osbourne, Giuliana Rancic and George Kotsiopoulos) dissect the celebrity fashion blunders and triumphs of the moment in the TV show Fashion Police.</p>
+        </div>
+
+        <div class="movie-card">
+            <img class="movie-image" src="images/apprentice.png" alt="Movie 2">
+            <p>Reality TV series set in New York in which candidates compete for the position of apprentice. Joan Rivers was named the winner of Donald Trump's "Celebrity Apprentice" on the May 10 broadcast of the NBC series. </p>
+        </div>
+
+        <div class="movie-card">
+            <img class="movie-image" src="images/rivershow.jpg" alt="Movie 3">
+            <p>The Joan Rivers Show is an American talk show hosted by comedian Joan Rivers that premiered on September 5, 1989, in broadcast syndication. She would interview many hosts with her humor and questions. </p>
+        </div>
+    </div>
+    <ol>
+        <li><a href = "https://cs.iupui.edu/~parmsing/n241/listlesslinks.html"> Go Back To Listless Links Page</a></li>
+        <li><a href = "https://cs.iupui.edu/~parmsing/n241/"> Go Back To My Course Work Page</a></li>
+    </ol>
+</body>
+</html>

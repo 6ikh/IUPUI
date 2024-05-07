@@ -1,0 +1,192 @@
+<!--
+ Filename: gas.html
+ Author: Parmindar Singh (PS)
+ Create Date: April 1 2024
+ Purpose: UI that helps the user purchase gas and see how much gallons are left to purchase
+ Modification History: 
+ 1 April 2024 - Creation Date (PS)
+ 20 April 2024 - Transfered from VsCode (PS)
+ 22 April 2024 - Fixed Styling issues and file locations (PS)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Purchasing</title>
+    <link rel="stylesheet" type="text/css" href="../cssstylesheets/final.css"> <!-- Linking an external CSS stylesheet -->
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <h1> Fill Your Vehicle Up! </h1>
+        <div id="datetime"></div>
+    </div>
+    <!-- Navigation buttons -->
+    <table id="table"> 
+        <tr>
+            <!-- Buttons for Home, Gas, Food, Attraction Links -->
+            <th>
+                <a href="home.html" class="button">Home</a>
+            </th>
+            <th>
+                <a href="gas.html" class="button">Gas</a>
+            </th>
+            <th>
+                <a href="food.html" class="button">Food</a>
+            </th>
+            <th>
+                <a href="attractions.html" class="button">Attractions</a>
+            </th>
+        </tr>
+    </table>
+    <!-- Container for gas purchasing -->
+    <div class="container">
+        <!-- Gas images -->
+        <div class="gas-container">
+            <!-- Images representing different gas types -->
+            <img src="./images/regular.png" class="gas1" alt="regular">
+            <img src="./images/premium.png" class="gas2" alt="premium">
+            <img src="./images/diesel.png" class="gas3" alt="diesel">
+            <img src="./images/e85.png" class="gas4" alt="e85"> 
+            <img src="./images/racefuel.png" class="gas5" alt="racefuel">
+        </div>
+        <!-- Gas purchasing form -->
+        <h1>Gas Purchasing</h1>
+        <!-- Main content section -->
+        <div class="main-content">
+            <h2>Which Gas Would You Like To Purchase?:</h2>
+            <!-- Sub-content for gas selection -->
+            <div class="sub-content">
+                <!-- Dropdown menu for selecting gas type -->
+                <select id="gasType" class="input-field">
+                    <option value="regular">Regular 87 Octane ($2.50 per gallon)</option>
+                    <option value="premium">Premium 91 Octane ($3 per gallon)</option>
+                    <option value="diesel">Diesel ($2.75 per gallon)</option>
+                    <option value="e85">E85 105 Octane ($1.85 per gallon)</option>
+                    <option value="racefuel">Race Fuel 120 Octane ($10 per gallon)</option>
+                </select>
+            </div>
+        </div>
+        <!-- Main content section -->
+        <div class="main-content">
+            <!-- Sub-content for entering gallons -->
+            <h2>How Many Gallons?</h2>
+            <!-- Input field for entering gallons -->
+            <input type="number" id="gallons" class="input-field" placeholder="Gallons" min="1">
+        </div>
+        <!-- Main content section -->       
+        <div class="main-content">
+            <!-- Sub-content for selecting payment method -->
+            <h2>Select Payment Method</h2>
+            <div class="sub-content">
+                <!-- Dropdown menu for selecting payment method -->
+                <select id="paymentMethod" class="input-field">
+                    <option value="Cash">Cash</option>
+                    <option value="Card">Card</option>
+                </select>
+            </div>
+        </div>
+        <!-- Main content section -->
+        <div class="main-content">
+            <!-- Sub-content for displaying fuel availability -->
+            <h2>Fuel Availability:</h2>
+            <div class="sub-content" id="fuelAvailability">
+                <p class="left-align">Regular 87 Octane: <span id="gas1Availability">500</span> gallons left</p>
+                <p class="left-align">Premium 91 Octane: <span id="gas2Availability">500</span> gallons left</p>
+                <p class="left-align">Diesel: <span id="gas3Availability">500</span> gallons left</p>
+                <p class="left-align">E85 105 Octane: <span id="gas4Availability">500</span> gallons left</p>
+                <p class="left-align">Race Fuel 120 Octane: <span id="gas5Availability">500</span> gallons left</p>
+            </div>
+        </div>
+        <!-- Main content section -->
+        <div class="main-content">
+            <!-- Button to calculate total cost -->
+            <button onclick="calculateTotal()" class="button">Calculate Total</button>
+            <p id="totalCost"></p>
+        </div>
+        <!-- Main content section -->
+        <div class="main-content">
+            <!-- Button to proceed to checkout -->
+            <button onclick="checkout()" class="button">Checkout</button>
+        </div>
+        <!-- Form for rating the transaction -->
+        <form id="ratingForm">
+            <!-- Label for rating input -->
+            <label for="rating">Rate this transaction (1-5 Stars):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <!-- Submit button for rating -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<!-- JavaScript script for fuel purchasing functionality -->
+<script>
+        // Initialize fuel availability
+        let gasAvailability = {
+            'regular': 500,
+            'premium': 500,
+            'diesel': 500,
+            'e85': 500,
+            'racefuel': 500
+        };
+        // Function to calculate total cost
+        function calculateTotal() {
+            const gallons = document.getElementById('gallons').value;
+            const gasType = document.getElementById('gasType').value;
+            let costPerGallon;
+            // Assign cost per gallon based on gas type
+            switch (gasType) {
+                case 'regular':
+                    costPerGallon = 2.5;
+                    break;
+                case 'premium':
+                    costPerGallon = 3;
+                    break;
+                case 'diesel':
+                    costPerGallon = 2.75;
+                    break;
+                case 'e85':
+                    costPerGallon = 1.85;
+                    break;
+                case 'racefuel':
+                    costPerGallon = 10;
+                    break;
+                default:
+                    costPerGallon = 0;
+            }
+            const totalCost = gallons * costPerGallon;
+            document.getElementById('totalCost').textContent = `Total cost: $${totalCost.toFixed(2)}`;
+        }
+        // Function to handle checkout process
+        function checkout() {
+            const gallons = parseInt(document.getElementById('gallons').value);
+            const gasType = document.getElementById('gasType').value;
+            if (gasAvailability[gasType] >= gallons) {
+                gasAvailability[gasType] -= gallons;
+                document.getElementById('gas1Availability').textContent = gasAvailability['regular'];
+                document.getElementById('gas2Availability').textContent = gasAvailability['premium'];
+                document.getElementById('gas3Availability').textContent = gasAvailability['diesel'];
+                document.getElementById('gas4Availability').textContent = gasAvailability['e85'];
+                document.getElementById('gas5Availability').textContent = gasAvailability['racefuel'];
+                alert('Thank you for your purchase!');
+                document.getElementById('totalCost').innerHTML = '';
+                // Reset form or navigate to checkout page
+            } else {
+                alert('Insufficient fuel availability for this gas type!');
+            }
+        }
+        // Event listener for rating form submission
+        document.getElementById("ratingForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+            
+            // Display the "Thank you for the feedback" message
+            alert("Thank you for the feedback!");
+        });
+        
+</script>
+<!-- External JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>

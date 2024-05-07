@@ -1,0 +1,136 @@
+<!--
+ Filename: attractions.html
+ Author: Parmindar Singh (PS)
+ Create Date: April 1 2024
+ Purpose: Showcasing the many spots to visit in the city
+ Modification History: 
+ 1 April 2024 - Creation Date (PS)
+ 20 April 2024 - Transfered from VsCode (PS)
+ 22 April 2024 - Fixed Styling issues and file locations (PS)
+-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>CSCI-N241 Final Project Attractions Page</title> 
+    <link rel="stylesheet" type="text/css" href="../cssstylesheets/final.css"> <!-- Linking an external CSS stylesheet, below is the embedded stylesheet -->
+    <style id="embeddedstylesheet">
+        /* Styling for name labels */
+        .name-label {
+            font-weight: bold;
+        }
+        /* Styling for places */
+        .place {
+            font-weight: normal;
+        }
+        /* Styling for container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Styling for attraction container */
+        .attraction-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+        /* Styling for attraction images */
+        .attraction-container img {
+            width: 35%;
+        }
+        /* Styling for attraction details */
+        .attraction-details {
+            width: 50%;
+        }
+        /* Clearfix for floated elements */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <h1> Explore the City!</h1>
+        <div id="datetime"></div>
+    </div>
+    <!-- Navigation buttons -->
+    <table id="table"> <!-- Start of a table -->
+        <tr> <!-- Table row -->
+            <!-- Buttons for Home, Gas, Food, Attraction Links-->
+            <th>
+              <a href="home.html" class="button">Home</a>
+            </th>
+            <th>
+              <a href="gas.html" class="button">Gas</a>
+            </th>
+            <th>
+              <a href="food.html" class="button">Food</a>
+            </th>
+            <th>
+              <a href="attractions.html" class="button">Attractions</a>
+            </th>
+        </tr>
+      </table>
+    <!-- Attraction containers -->
+    <div class="attraction-container">
+    <div class="attraction-image1">
+        <img src="./images/park.jpg" alt="park" id="parkimage">
+        <div class="attraction-details">
+            <!-- Attraction details -->
+            <p class="place"><span class="name-label">Name:</span> Parkway Gardens Recreation Area </p>
+            <p class="place"><span class="name-label"> Number:</span> (555) 123-4567</p>
+            <p class="place"><span class="name-label"> Address:</span> 123 Meadow Lane, Sunnyville, USA</p>
+            <p class="place"><span class="name-label"> Hours:</span> 24/7 </p>
+            <p class="place"><span class="name-label"> Description:</span> Meadowbrook Park is a peaceful spot with lots of trees and paths. It's great for hanging out, going for walks, or having a picnic with friends or family. The sand playground also gives children a place to play.</p>
+        </div>
+    </div>
+    <!-- Attraction 2 -->
+    <div class="attraction-image2">
+        <img src="./images/waterpark.jpg" alt="waterpark" id="waterimage">
+        <div class="attraction-details">
+            <!-- Attraction details -->
+            <p class="place"><span class="name-label"> Name:</span> AquaSplash Resort </p>
+            <p class="place"><span class="name-label"> Number:</span> (555) 987-6543</p>
+            <p class="place"><span class="name-label"> Address:</span> 456 Ocean Avenue, Sunnyville, USA</p>
+            <p class="place"><span class="name-label"> Hours:</span> Monday to Thursday: 10:00 AM - 8:00 PM
+                Friday to Sunday: 10:00 AM - 11:00 PM</p>
+            <p class="place"><span class="name-label"> Description:</span> Dive into excitement at AquaSplash Resort, a thrilling waterpark featuring twisty slides, lazy rivers, and splash zones for all ages. Cool off and make a splash in the sun-drenched paradise!</p>
+        </div>
+    </div>
+    <!-- Attraction 3 -->
+    <div class="attraction-image3">
+        <img src="./images/zoo.jpg" alt="zoo" id="zooimage">
+        <div class="attraction-details">
+            <!-- Attraction details -->
+            <p class="place"><span class="name-label"> Name:</span> Safari Haven Zoo </p>
+            <p class="place"><span class="name-label"> Number:</span> (555) 876-5432</p>
+            <p class="place"><span class="name-label"> Address:</span> 789 Wildlife Drive, Sunnyville, USA</p>
+            <p class="place"><span class="name-label"> Hours:</span> All Week: 9:00 AM - 7:00 PM</p>
+            <p class="place"><span class="name-label"> Description:</span> Join us for a wild adventure at Safari Haven Zoo, where you can encounter fascinating creatures from around the globe. Explore natural habitats and engage in unforgettable animal encounters.</p>
+        </div>
+    </div>
+    <!-- Attraction 4 -->
+    <div class="attraction-image4">
+        <img src="./images/themepark.jpg" alt="themepark" id="themeimage">
+        <div class="attraction-details">
+            <!-- Attraction details -->
+            <p class="place"><span class="name-label"> Name:</span> Adventure Island Theme Park </p>
+            <p class="place"><span class="name-label"> Number:</span> (555) 234-5678</p>
+            <p class="place"><span class="name-label"> Address:</span> 321 Adventure Road, Sunnyville, USA</p>
+            <p class="place"><span class="name-label"> Hours:</span> Monday to Thursday: 10:00 AM - 8:00 PM
+                Friday to Sunday: 10:00 AM - 11:00 PM</p>
+            <p class="place"><span class="name-label"> Description:</span> Adventure Island Theme Park is all about excitement! There are awesome rides, cool shows, and things to do for everyone. It's the place to be for a day full of fun and thrills.</p>
+        </div>
+    </div>
+</div>
+<!-- Script link -->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Work Schedule</title>
+  <link rel="stylesheet" href="cssstylesheets/tabled.css"> <!-- Linking external CSS file -->
+</head>
+<body>
+  <h1>Indy Deli Work Schedule</h1> <!-- Heading indicating the purpose of the page -->
+    <!-- Table section representing the work schedule -->
+    <table>
+        <caption>Employee Shift Schedule</caption> <!-- Caption indicating the purpose of the table -->
+        <thead>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows indicating different time slots -->
+            <tr>
+                
+                <th>8:00am - 9:00am</th>
+                <!-- Cells indicating which employee is working in each time slot -->
+                <td class="shift john">
+                    John
+                    <ul class="nested-list">
+                        <li>Pre Heat Oven</li>
+                        <li>Keep Soup On Low Heat</li>
+                        <li>Take Out The Bread</li>
+                    </ul>
+                </td>
+                <td class="shift emma">Emma</td>
+                <td class="shift michael">Michael</td>
+                <td class="shift sarah">Sarah</td>
+                <td class="shift david">David</td>
+                <td class="shift sophia">Sophia</td>
+                <td class="shift alex">Alex</td>
+            </tr>
+            <tr>
+              <th>9:00am - 10:00pm</th>
+                <td class="shift emma">Emma</td>
+                <td class="shift michael">Michael</td>
+                <td class="shift sarah">Sarah</td>
+                <td class="shift david">David</td>
+                <td class="shift sophia">Sophia</td>
+                <td class="shift alex">Alex</td>
+                <td class="shift john">John</td>
+            </tr>
+            <tr>
+              <th>11:00pm - 12:00pm</th>
+              <!-- Cell indicating lunch break -->
+                <td colspan="7">Lunch Break</td>
+            </tr>
+            <tr>
+              <th>12:00pm - 1:00pm</th>
+                <td class="shift michael">Michael</td>
+                <td class="shift sarah">Sarah</td>
+                <td class="shift david">David</td>
+                <td class="shift sophia">Sophia</td>
+                <td class="shift alex">Alex</td>
+                <td class="shift john">John</td>
+                <td class="shift emma">Emma</td>
+            </tr>
+            <tr>
+              <th>1:00pm - 2:00pm</th>
+                <td class="shift sarah">Sarah</td>
+                <td class="shift david">David</td>
+                <td class="shift sophia">Sophia</td>
+                <td class="shift alex">Alex</td>
+                <td class="shift john">John</td>
+                <td class="shift emma">Emma</td>
+                <td class="shift michael">Michael</td>
+            </tr>
+            <tr>
+              <th>3:00pm - 4:00pm</th>
+              <!-- Cell indicating Prep Time -->
+                <td colspan="7">Prep Time For Tomorrow</td>
+            </tr>
+            <tr>
+              <th>4:00pm - 5:00pm</th>
+              <!-- Cell indicating the length of closing and batch closing -->
+              <td class="shift sarah" rowspan="2">Sarah</td>
+              <td class="shift david" rowspan="2">David</td>
+              <td class="shift sophia" rowspan="2">Sophia</td>
+              <td class="shift alex" rowspan="2">Alex</td>
+              <td class="shift john" rowspan="2">John</td>
+              <td class="shift emma" rowspan="2">Emma</td>
+              <td class="shift michael" rowspan="2">Michael</td>
+            </tr>
+            <tr>
+              <!-- Cell indicating the length of closing and batch closing -->
+              <th>5:00pm - 6:00pm</th>
+            </tr>
+            
+        </tbody>
+    </table>
+    <footer>
+      <p><a href="index.html">Back To Main Menu</a></p>
+    </footer>
+</body>
+</html>
+

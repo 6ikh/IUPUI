@@ -1,0 +1,178 @@
+/* CSS Document */
+/* 4 March 2024 Parmindar Singh PS */
+
+/* A2 Requirement #1 Create five unique classes that will be used to style at least ten page elements. Each class should be used in at least two page elements. Please define each class without attaching it to a specific page element as the "flintstone" class is demonstrated below.*/
+.reason {
+    background-color: pink;
+    border: 1px solid #ccc;
+}
+
+.highlight {
+    background-color: orange;
+    border: 1px solid #ccc;
+}
+
+.lists {
+    background-color: lightblue;
+    text-decoration: white;
+    font-style: italic;
+}
+
+.discription {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.styled-button {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* A2 Requirement #2 Create three unique ids. Each id can be used in exactly one page element. */
+#featured-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#featured-ytlist {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#featured-list {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* A2 Requirement #3 Style each heading element (<h1> - <h6>). */
+h1 {
+    color: navy;
+    font-size: 28px;
+}
+
+h2 {
+    color: #006400; /* Dark Green */
+    font-size: 24px;
+}
+
+h3 {
+    color: #8B4513; /* Saddle Brown */
+    font-size: 20px;
+}
+
+h4 {
+    color: #800080; /* Purple */
+    font-size: 18px;
+}
+
+h5 {
+    color: #2F4F4F; /* Dark Slate Gray */
+    font-size: 16px;
+}
+
+h6 {
+    color: #696969; /* Dim Gray */
+    font-size: 14px;
+}
+
+/* A2 Requirement #4 Style all <a> tags using pseudo-classes for normal, hover, and visited states */ 
+a {
+    color: black; /* Normal state */
+}
+
+a:hover {
+    color: orangered; /* Hover state */
+}
+
+a:visited {
+    color: purple; /* Visited state */
+}
+
+/* A2 Requirement #5 Style the Header Element */
+header {
+    background-color: lightblue;
+    color: white;
+    border-bottom: 2px solid darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+/* A2 Requirement #6 Style the Footer Element */
+footer {
+    background-color: lightblue;
+    color: white;
+    border-top: 2px solid darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* A2 Requirement #7 Style the <button> element. It could change colors or glow when clicked. */
+.styled-button {
+    display: inline-block;
+    background-color: #FFD700; /* Gold */
+    color: #007bff; /* Normal state text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline for links */
+}
+
+.styled-button:hover {
+    background-color: #FFA500; /* Orange */
+    color: #000; /* Change text color on hover */
+}
+
+.styled-button:visited {
+    color: purple; /* Visited state for links */
+}
+
+
+/* A2 Requirement #8 Style the <div> that encapsulates everything in the <body>. */
+#content {
+    padding: 20px;
+    border: 1px solid #808080; /* Gray */
+}
+
+/* A2 Requirement #9 Style the <ul> and its <li> elements */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* A2 Requirement #10 Style the <ol> and its <li> elements */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* A2 Requirement #11 Style the <table> and its <th> and <td> elements. */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2; /* Light Gray */
+}

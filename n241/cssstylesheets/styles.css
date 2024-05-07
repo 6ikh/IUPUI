@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Requirement 1,2,3, & 4: Set font family, background color, text color, and font size for body */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+  }
+
+body {
+    background-color: #ffffff; /* Set background color */
+}
+
+body {
+    color: #000000; /* Set text color using a hex code */
+}
+
+body {
+    font-size: 16px; /* Set font size */
+}
+  
+  /* Requirement 5: Four different style classes for different <p> elements */
+  .p1{
+    color: blue; /* Set text color to blue */
+  }
+  
+  .p2 {
+    color: green; /* Set text color to green */
+  }
+  
+  .p3 {
+    color: red; /* Set text color to red */
+  }
+  
+  .p4 {
+    color: lightblue; /* Set text color to lightblue */
+  }
+  
+  /* Requirement 6: Create a style id, and use it to style the page element of your choice. */
+  #Arrived {
+    font-weight: bold; /* Set font weight */
+  }
+  
+  /* Requirement 7: Apply style to more than one element */
+  h1, h2 {
+    color: pink; /* Set text color to pink */
+  }
+  
+  
+  /* Requirement 8: Create a CSS rule that overrides an inherited style */
+  .p1, .p2, .p3, .p4 {
+    font-size: 18px; /* Override font size */
+  }
+  
+  /* Requirement 9: Set font size using a method other than pixels */
+  h1 {
+    font-size: 2em; /* Set font size using em */
+  }
+  
+  /* Requirement 10: Define bottom border for <h1> */
+  h1 {
+    border-bottom: 1px solid black; /* Define bottom border */
+  }
+
+  /* Requirement 11: Define color by name */
+  p {
+    color: black; /* Set text color to blue */
+  }
+  
+  /* Requirement 12: CSS rule for font weight */
+  .p1, .p2, .p3, .p4 {
+    font-weight: bold; /* Set font weight to bold */
+  }
+
+  /* Requirement 13: Use a Web Font to add a special font to your page */
+  @font-face {
+    font-family: Rocks;
+    src: url('../font/Graffiti.tff/graffiti.ttf');
+  }
+
+  .p5{
+    font-family: Rocks;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+  }
+

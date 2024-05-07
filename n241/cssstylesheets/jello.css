@@ -1,0 +1,78 @@
+/* CSS Document */
+/*Req #2: HTML and CSS files have header block comments that contain your name and the date. 
+ Filename: jello.css
+ Author: Parmindar Singh PS
+ Create Date: 19 Mar 2024
+ Purpose: CSS Styling for Jello lab
+ Modification History: 
+ 19 Mar 2024: Create Date
+ 25 Mar 2024: Transfered code from personal VsCode folder
+ 25 Mar 2024: Added Comments
+*/
+
+/* Header Styling */
+header {
+    text-align: center;
+/* Req #8: Utilize at least six of the following: padding */
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+/* Caption Styling*/
+figure {
+    font-weight: bold;
+}
+
+/* Body Styling */
+body {
+/* Req #8: Utilize at least six of the following: center */
+    text-align: center;
+    color: white;
+
+  }
+/* Columns Styling */
+/* Req #4: Page is centered and stays centered with window resizing. */
+.container {
+    display: flex;
+    justify-content: space-around;
+/* Req #8: Utilize at least six of the following: margin */
+    margin: 20px auto;
+}
+
+/* Req #5: Column content remains fixed with window resizing */
+.column {
+/* Req #8: Utilize at least six of the following: width */
+    width: 45%;
+/* Req #6: The height of both columns is relatively equal unless creating an inset effect. */
+    min-height: 300px;
+/* Req #8: Utilize at least six of the following: padding */
+    padding: 20px;
+/* Req #8: Utilize at least six of the following: margin */
+    margin: 0 10px;
+    background-color: red;
+/* Req #8: Utilize at least six of the following: center */
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+/* Req #8: Utilize at least six of the following: center */
+    text-align: center;
+/* Req #8: Utilize at least six of the following: padding */
+    padding: 10px 0;
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Hobby Image Styling */
+/* Req#7: Use at least one image that is styled with position or float. */
+.hobby-image {
+    /* Req #8: Utilize at least six of the following: float */
+    float: left;
+    width: 80%;
+    margin: 1% 1% 1% 1%; /* Top, Right, Bottom, Left */
+}
+
+.p2 {
+    color: white; 
+  }

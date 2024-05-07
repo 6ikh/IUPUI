@@ -1,0 +1,83 @@
+/* Two-column layout */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styling for body */
+body{
+    margin: 50px;
+    height: 700px;
+    background: yellow;
+}
+
+/* Styling for title */ 
+#title{
+    color: purple;
+}
+
+/* Styling for legend */ 
+legend{
+    color: purple;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Styling for form labels */
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+/* Styling for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 92%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling for specific labels */
+label[for="male"],
+label[for="female"],
+label[for="other"],
+label[for="newsletter"],
+label[for="promotions"],
+label[for="updates"]
+{
+    font-weight: normal;
+}
+
+/* Styling for submit and reset buttons */
+input[type="reset"],
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #ff0000;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+

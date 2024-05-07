@@ -1,0 +1,73 @@
+<!--
+ Filename: home.html
+ Author: Parmindar Singh (PS)
+ Create Date: April 1 2024
+ Purpose: Home page of the website that shows what is offered at Kum & Go
+ Modification History: 
+ 1 April 2024 - Creation Date (PS)
+ 20 April 2024 - Transfered from VsCode (PS)
+ 22 April 2024 - Fixed Styling issues and file locations (PS)
+-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI-N241 Final Project Homepage </title> 
+    <link rel="stylesheet" type="text/css" href="../cssstylesheets/final.css"> <!-- Linking an external CSS stylesheet -->
+</head>
+
+<body>
+<!-- Header section -->
+<div id="header">
+    <h1> Welcome To Kum & Go!</h1> <!-- Header for the home page along with the JS date and time-->
+    <div id="datetime"></div>
+</div>
+<!-- Navigation buttons -->
+    <table id="table"> 
+        <tr>
+            <!-- Buttons for Home, Gas, Food, and Attractions -->
+            <th>
+              <a href="home.html" class="button">Home</a>
+            </th>
+            <th>
+              <a href="gas.html" class="button">Gas</a>
+            </th>
+            <th>
+              <a href="food.html" class="button">Food</a>
+            </th>
+            <th>
+              <a href="attractions.html" class="button">Attractions</a>
+            </th>
+        </tr>
+      </table>
+    <!-- Blockquote for welcoming message -->
+    <blockquote id="blockquote">
+      <p> Welcome to Kum & Go! We take pride in our customer service and amentities!</p>
+    </blockquote>
+<!-- Sub-text for what is offered at the gas station -->
+<p class="sub-text"> What We Offer At This Gas Station:</p>
+<!-- Definition list for gas station offerings -->
+<dl id="dillist">
+    <!-- Gas section -->
+    <dt> Gas: </dt>
+    <dd> Use our user friendly UI to fill your vehicle up!</dd>
+    <!-- Food section --> 
+    <dt> Food: </dt>
+    <dd> Explore our many snack/drink options!</dd>
+    <!-- Attractions section -->  
+    <dt> Attractions:</dt>
+    <dd> Take a look at the many places in the surrounding area!</dd>
+</dl>
+<!-- Image representing Kum & Go -->
+<img src="./images/kumgo.gif" alt="Kum & Go" id="imagez"> 
+<!-- Footer section -->
+<footer>
+    <!-- Copyright and year -->
+    <p>2024 Kum & Go &#174;</p>
+</footer>
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
