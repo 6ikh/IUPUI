@@ -1,0 +1,10 @@
+While following along in class, I created a new git called "gitDemo". While experimenting in class, I made new directories in it and had it all ready with the help of professor. When it was time to commit it to Github, I accidentaly added it along with my other two files. I got an error messaged that contained this: (parmsing@tesla:~/CSCI24000/CSCI24000_spring23_Al$ git add gitDemo/ warning: adding embedded git repository: gitDemo
+hint: You've added another git repository inside your current repository. hint: Clones of the outer repository will not contain the contents of hint: the embedded repository and will not know how to obtain it. hint: If you meant to add a submodule, use: hint: hint:
+git submodule add <ur1> gitDemo
+hint:
+hint: If you added this path by mistake, you can remove it from the hint: index with:
+hint: hint:
+git rm --cached gitDemo
+hint:
+hint: See "git help submodule" for more information.
+I soon realized that this was something that Mr Harris pointed out in lecture and it would lead to many bugs in the future. I quickly realized my mistake and deleted that gitDemo as it was no longer needed. I was not aware of the rm -rf command before or else I would save some time manually deleting what was in the gitDemo. While doing so, I successfully stopped some problem that might have bugged my whole unix all together before it would have done so 

@@ -1,0 +1,4 @@
+Account Number: 00000 password: 12345 CheckingAccount Balance: 0.0 Savings Account Balance: 20000.0
+Account Number: 1212 password: 1212 CheckingAccount Balance: 0.0 Savings Account Balance: 30000.0
+Account Number: UN02 password: 1313 CheckingAccount Balance: 0.0 Savings Account Balance: 40000.0
+Account Number: UN03 password: 1414 CheckingAccount Balance: 0.0 Savings Account Balance: 50000.0

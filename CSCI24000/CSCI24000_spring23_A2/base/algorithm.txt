@@ -1,0 +1,57 @@
+Goals - What is the goal of the program or function?
+The goal of the the program is to rearrange the integers that are given, {7, 3, 9, 4, 6, 1, 2, 8, 5}, to be outputted like this: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. The process of doing that should be done efficiently so it will swap the integers around and set them in place so it will be outputted in order. The program defines three functions: "printValues()", "sort()", and "swap(int*, int*)". The "printValues()" function is used to print the current state of the array. The "sort()" function is used to sort the array using the bubble sort algorithm. The "swap(int*, int*)" function is used to swap two values in the array.
+Input - What (if any) input does the function or program accept?  Are there specific data types or ranges?
+The program is not going to take any input from the user as it is just going to use the values it has already. Based on the values the program has, {7, 3, 9, 4, 6, 1, 2, 8, 5}, this will be used throughout the entire program. 
+Output - What (if any) output does the function or program return
+In the main function, the program prints "Before: " and calls the "printValues()" function to print the initial state of the array. Then, it calls the "sort()" function to sort the array, and after sorting it, it prints "After: " and calls the "printValues()" function again to print the final state of the array. The program should return the the following output exactly how it is on canvas: 
+Before:
+[7 3 9 4 6 1 2 8 5 ]
+[3 7 9 4 6 1 2 8 5 ]
+[3 7 4 9 6 1 2 8 5 ]
+[3 7 4 6 9 1 2 8 5 ]
+[3 7 4 6 1 9 2 8 5 ]
+[3 7 4 6 1 2 9 8 5 ]
+[3 7 4 6 1 2 8 9 5 ]
+[3 7 4 6 1 2 8 5 9 ]
+[3 4 7 6 1 2 8 5 9 ]
+[3 4 6 7 1 2 8 5 9 ]
+[3 4 6 1 7 2 8 5 9 ]
+[3 4 6 1 2 7 8 5 9 ]
+[3 4 6 1 2 7 5 8 9 ]
+[3 4 1 6 2 7 5 8 9 ]
+[3 4 1 2 6 7 5 8 9 ]
+[3 4 1 2 6 5 7 8 9 ]
+[3 1 4 2 6 5 7 8 9 ]
+[3 1 2 4 6 5 7 8 9 ]
+[3 1 2 4 5 6 7 8 9 ]
+[1 3 2 4 5 6 7 8 9 ]
+[1 2 3 4 5 6 7 8 9 ]
+After:
+[1 2 3 4 5 6 7 8 9 ]
+Steps - What are the steps (written in English) necessary to solve this problem.  This should NOT be programming code, but each line should be specific enough to be translated to a line or two of code in your target language.
+
+Steps for “void printValues()”
+First define a void function called printValues()
+The function starts with a printf statement that prints an open bracket "["
+Next, there's a for loop that iterates from 0 to MAX.
+Inside the loop, the function calls printf to print the current element of the array values[i] followed by a space.
+The loop continues until the last element of the array.
+After the loop, the function calls printf again to print a closing bracket "]" and a new line "\n"
+The function completes and the array is printed in the format "[7 3 9 4 6 1 2 8 5]"
+
+Steps for “void sort()”
+The function starts with an outer for loop that iterates from 0 to MAX. i then plusses one
+Inside the outer loop, there's an inner for loop that iterates from 0 to MAX-1.
+If the current element is greater than the next element, the swap function is called to swap the values of the two elements in the array.
+The swap function takes two pointer arguments, the address of values[j] and the address of values[j+1], and swap their values.
+The swap function takes two pointer arguments, the address of values[j] and the address of values[j+1], and swap their values.
+After the swap, the function printValues() is called to print the current state of the array.
+
+Steps for “void swap(int*, int*)”
+First define a void function for swap() with int pointer x and int pointer y inside the parentheses. Include a curly bracket after to begin the code block. 
+We will be using a temporary variable for the swapping called “z” first. In order to do that we should type int z gets the first pointer variable x 
+Pointer variable x then gets pointer variable y 
+After that, pointer variable y should now get the temporary variable z. A semicolon should be included after the z variable as it means that the current statement is terminated 
+A bracket is entered below so we know the code block is finished 
+
+
