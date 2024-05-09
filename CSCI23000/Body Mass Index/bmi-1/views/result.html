@@ -1,0 +1,47 @@
+<%
+from bottle import request
+weight = request.forms.get("weight")
+weight = int(weight)
+
+fheight = request.forms.get("fheight")
+fheight = int(fheight)
+
+iheight = request.forms.get("iheight")
+iheight=int(iheight)
+
+height = fheight*12 + iheight
+height = int(height)
+bmi = (weight / (height*height))*703
+bmi = int(bmi)
+
+if bmi < 18.5:
+    status = "underweight"
+elif 18.51<=bmi<=24.9:
+    status = "normal"
+elif 25<=bmi<=29.9:
+    status = "overweight"
+elif bmi > 30:
+    status= "obese"
+end
+
+%>
+
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+  <title>BMI results</title>
+  <meta charset = "utf-8">
+</head>
+
+<body>
+  <h1>BMI Results</h1>
+
+  <p>
+      BMI: {{ bmi }} <br/ >
+      Status: {{ status }}
+  </p>
+
+</body>
+</html>
+
+
