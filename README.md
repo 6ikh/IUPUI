@@ -1,4 +1,4 @@
-# Add Computing 1 files later & Intro to Databases
+# Add Intro to Databases
 
 # IUPUI
 As of 5/7/2024
@@ -65,4 +65,26 @@ Textbook: https://www.oreilly.com/library/view/head-first-html/9781449324469/ (C
 Introduction to programming focusing on the client-side programming environment. Essential algorithm design, client-side programming using languages commonly embedded in web browsers. To be successful in this course, you must have skills or experience with a programming language, as well as HTML and CSS.
 
 TextBook: https://cdn.discordapp.com/attachments/880189164925091850/1194104130852106310/JS_and_JQuery_Interactive_Front-End_Web_Development.pdf?ex=663b8ae2&is=663a3962&hm=bc0a22b6382ff78079f0d8db842a8a2409185b2cfbffb7a807119cc769902f7c&aa
+
+# FA22-IN-CSCI-23000 COMPUTING I: 22733 CSCI230
+# **Course Description**
+This course focuses on the context of computing in history and society, information representation in digital computers, introduction to programming in a modern high-level language, ethics, introduction to algorithms and data structures, and their analysis and implementation as programs.
+
+## CSCI 23000 and the PUL
+
+All courses at IUPUI are intended to reflect a number of the [Principles of Undergraduate Learning](https://www.iupui.edu/about/mission/values/puls.html) (PULs) identified by the campus. CSCI 230 reinforces all these principles to some level:
+
+- Core Communication and Quantitative Skills
+- Critical Thinking
+- Integration and Application of Knowledge
+- Intellectual Depth, Breadth, and Adaptiveness
+- Understanding Society and Culture
+- Values and Ethics
+
+However, this particular course focuses particularly on the first two PUL objectives:
+
+- Core Communication and Quantitative Skills
+- Critical Thinking
+## Textbook
+[Think Python: How to Think Like a Computer Scientist 2nd Edition](http://greenteapress.com/wp/think-python-2e/) (Although you may purchase the book, the free downloadable PDF or HTML versions on this site are identical to the published book, and they are fine for the course.)
 
