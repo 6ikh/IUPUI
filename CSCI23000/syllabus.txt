@@ -1,0 +1,95 @@
+FA22: COMPUTING I: 22733
+Jump to Today
+Course Description
+This course focuses on the context of computing in history and society, information representation in digital computers, introduction to programming in a modern high-level language, ethics, introduction to algorithms and data structures, and their analysis and implementation as programs.
+
+CSCI 23000 and the PUL
+All courses at IUPUI are intended to reflect a number of the Principles of Undergraduate Learning .(PULs) identified by the campus. CSCI 230 reinforces all these principles to some level:
+
+Core Communication and Quantitative Skills
+Critical Thinking
+Integration and Application of Knowledge
+Intellectual Depth, Breadth, and Adaptiveness
+Understanding Society and Culture
+Values and Ethics
+However, this particular course focuses particularly on the first two PUL objectives:
+
+Core Communication and Quantitative Skills
+Critical Thinking
+Section Information
+section	type	location	day(s)	time
+lecture	IO 105	TR	3:00-4:15
+lab	various	TR	4:30-5:45
+Instructor Information
+Lecture Instructor:
+Andy Harris
+email:
+ajharris@cs.iupui.edu
+Office Hours:
+Tues, Thurs 10-12
+other times by appointment / zoom / IM
+Office Location:
+SL 280C
+Phone:
+(317) 274-8491
+Zoom Room: https://iu.zoom.us/my/andyharris
+
+TAs / Recitation leaders:
+announced
+Textbook
+Think Python: How to Think Like a Computer Scientist (http://greenteapress.com/wp/think-python-2e/) 2nd Edition (Although you may purchase the book, the free downloadable PDF or HTML versions on this site are identical to the published book, and they are fine for the course.)
+
+Other course notes and examples will be found on class main page
+
+A note about Excellence
+This is a university-level science class in a very demanding discipline. It will be difficult (but possible) to get a good grade in this class. If you work hard, turn in all your homework, and show some skill, you should have no problem earning As and Bs on all assignments.
+
+That does not mean it is easy to earn a perfect score on any assignment (although it has been done on all of them.) Some students have expected to earn a perfect score when they fulfill all the requirements. That is not my policy. If you do all I ask, you will get a good grade. If you want 100%, you need to do something amazing.
+
+I will always give you a minimum set of expectations for assignments. If you fulfill all of those expectations, you will likely earn a B+ or A- for that project. If you do everything I ask, you will probably get an A, but that does NOT mean you will get 100%. I reserve those last few points to reinforce brilliance. Many assignments have 'black-belt challenges,' which are suggestions for how you might choose to excel. Of course, there are many kinds of excellence. Whether and how you choose to go beyond the standard requirements is up to you.
+
+Attendance
+Computer science and computer programming are challenging topics. We will do our best to make sure the content of every single session is relevant and interesting. If you miss one session, you will fall behind. The topics tend to build on each other, so missing even one session can cause a ripple effect that can jeopardize the entire semester.
+
+Attendance in lecture and lab / recitation sections are required for all students. Lab attendance is the number one predictor of student success. You are welcome to get more help from the lecturer or TAs during office hours or other scheduled times, but these are not an adequate replacement for participating in lab and lecture. If you feel you are falling behind, be sure to speak with your recitation leader.
+
+Peer-led Team Learning
+This course uses a variation of a technique called peer-led team learning.  The basic format of the model is alternation between traditional lectures and a small-group learning team.  You will have an undergraduate recitation leader working with a small group (usually around ten students.)  The leader is not really meant to teach the content directly, but to aid the group in digesting and internalizing the lecture content as applied to the problem set given for the week.  This model has proven very popular with our students, and your recitation leaders and peers are among the best resources you have for success.
+
+Note for Fall of 2022
+The plan for this semester is to meet in person on campus in the lecture rooms and the recitations.  We anticipate a return to pre-pendemic conditions, but we will follow campus and government guidelines.
+
+If it becomes necessary to move to a partially asynchronous model, or if you find yourself quarantined, the lecture material will all be available as recorded videos on the canvas site.
+
+We do not plan to live stream lectures.
+
+If you find yourself sick or needing to care for a sick person in your household, please contact me so we can make appropriate arrangements.
+
+Integrity Issues
+Students are encouraged to discuss the concepts and principles amongst themselves. Such discussions help in understanding the material and/or different aspects of the topics taught in the class. Students may also assist in debugging each others code. It is unethical to directly transfer any portion of individual work products, either by printed or electronic means, between students. Student cooperation should not result in identical or near identical answers/code/documentation. 
+
+Students are welcome to work together in the algorithm phase of programming assignments, but you must do your own implementation of the algorithm. If two students turn in identical code, both will receive a zero until you have spoken to the instructor.
+
+You're welcome to utilize online or outside resources, but the following tenets of basic scholarship apply:
+
+Cite your source- if you use information from an external source, you must explicitly state where you got the material somewhere in your documentation. It is not necessary to cite materials from the lecture or book, as it's expected you will start with this material. However, if you turn in a project that is substantially copied from online material and you have not cited that source, the project will be considered plagiarism and will be cause for academic misconduct.
+Get permission as necessary - Either include a message of explicit permission from the original author or provide evidence of licensing that allows you use of the material.  (Creative commons, GNU, MIT, etc)
+Add to the work - Somehow you must improve the work.  Improvements cannot be simply cosmetic (changing variable names, constants, and text) but substantial changes. Such changes should be indicated in documentation. 
+ALL THE MATERIAL SUBMITTED FOR GRADING MUST BE YOUR OWN EFFORT.
+
+We run all code through an automated plagiarism detection system (MOSS https://theory.stanford.edu/~aiken/moss/ ) This tool is quite effective at informing us whether software is similar to code submitted by a classmate or found online.  Of course, any suspicious code will also be inspected by the instructors to ensure it is truly original. 
+
+If this policy is violated then the following steps will be taken (at the instructor's discretion):
+
+rejection of submitted material with an opportunity for resubmission for a reduced grade
+reduction of points by dividing by the number of students involved in an incident
+assignment of a grade of ZERO for all students involved in an incident
+assignment of a grade of F for the course
+initiation of official action against all students involved in an incident.
+Internet use warning: The Computer Science department is particularly sensitive to dishonest leveraging of the Internet. Presenting information obtained from the Internet as your own is just as severe as claiming another student's work as your own. It is extremely important to cite works from the Internet or other resources when they are the basis for your own work. Your Internet research should not result in work products that are in identical or near identical to the original. Modifying small parts of an existing program is NOT sufficient effort to make a program original. Posting any part of the course including homework, exams, or projects is forbidden. Submitting any part of the course to code-for-hire or other support web sites is forbidden. Accessing any online chat, user forum, IRC, or any other interactive discussions during online testing is prohibited.
+
+AES policy
+Every attempt will be made to accommodate students with disabilities (e.g. mental health, learning, chronic health, physical, hearing, vision, neurological, etc.) You must have established your eligibility for support services through the Adaptive Educational Services office that serves students with disabilities.  Note that services are confidential, may take time to put in place, and are not retroactive; Captions and alternate media for print materials may take three or more weeks to get produced.  Please contact AES office as soon as possible if accommodations are needed. AES is located in room 100 Taylor Hall, 317 274-3241
+
+Exams
+The midterm and final exam will be scheduled in the testing center (SL 070.)  As exam times approach, we will provide more detailed instructions on how to schedule your exam.  If for some reason you cannot physically make it to the testing center, it is your obligation to contact me or your recitation leader to investigate alternative arrangements. All exams must be proctored, so it's much simpler for everyone if the exam is taken in the testing center.
