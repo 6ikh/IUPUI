@@ -5,7 +5,7 @@ As of 5/7/2024
 All CSCI IUPUI Server files
 
 # SP23-IN-CSCI-24000 COMPUTING II: 21457 CSCI24000 
-# **Course Description**
+## **Course Description**
 This course focuses on the progress of computer science and programming from the simplest early languages through modern object-oriented languages. Students will gain fluency in at least three programming languages, from standard C through C++ to Java. The course then looks beyond specific programming languages towards a view of computing as a data science. You will investigate essential data structures and algorithms, which will truly begin your journey as a computer scientist.
 
 Textbook Links:
@@ -16,7 +16,7 @@ Textbook Links:
 5. https://github.iu.edu/ajharris/240-Examples
 
 # FA23-IN-CSCI-36200 DATA STRUCTURES: 22163 CSCI362000
-# **Course Description**
+## **Course Description**
 **Enhanced Programming:** Array, Structure/class, Pointer, Function, A Brief Introduction to Recursion
 
 **Algorithm Analysis:**  Mathematical Background Model, What to Analyze, Running Time Calculations
@@ -40,7 +40,7 @@ Textbook(s):
 2. T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, Introduction to Algorithms, MIT Press, Third Edition, 2009.
 
 # FA23-IN-CSCI-35500 Intro To Programming Langauges: 26253 CSCI35500
-# **Course Description**
+## **Course Description**
 The goal of this course is to provide you with a solid foundation and understanding of various programming language concepts and different paradigms of programming. Upon completion of this course you should have a better understanding of the roots and core concepts of various popular programming languages, been exposed to new programming languages, and learned different applications of programming languages.
 
 Textbook links:
@@ -61,13 +61,13 @@ Summary of basic web computing topics. Introduction to writing content for the I
 Textbook: https://www.oreilly.com/library/view/head-first-html/9781449324469/ (Check N241 Folder)
 
 # SP24-IN-CSCI-N341 INTRO CLIENT-SIDE WEB PRGMING: 17826 CSCIN341
-# **Course Description**
+## **Course Description**
 Introduction to programming focusing on the client-side programming environment. Essential algorithm design, client-side programming using languages commonly embedded in web browsers. To be successful in this course, you must have skills or experience with a programming language, as well as HTML and CSS.
 
 TextBook: https://cdn.discordapp.com/attachments/880189164925091850/1194104130852106310/JS_and_JQuery_Interactive_Front-End_Web_Development.pdf?ex=663b8ae2&is=663a3962&hm=bc0a22b6382ff78079f0d8db842a8a2409185b2cfbffb7a807119cc769902f7c&aa
 
 # FA22-IN-CSCI-23000 COMPUTING I: 22733 CSCI230
-# **Course Description**
+## **Course Description**
 This course focuses on the context of computing in history and society, information representation in digital computers, introduction to programming in a modern high-level language, ethics, introduction to algorithms and data structures, and their analysis and implementation as programs.
 
 ## CSCI 23000 and the PUL
