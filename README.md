@@ -55,7 +55,7 @@ https://iucat.iu.edu/catalog/14658939
 "I have attached the link to find the books in the library. The second one is available online. You need to select your campus and click on Ebook Central - Academic CompleteLinks to an external site. under the book title. If you are off campus then you might need to sign in to the EZproxy server for authentication. After that click on the read online."
 
 # SP24-IN-CSCI-N241 FUNDAMENTALS WEB DEVELOPMENT: 15934 CSCIN241
-# **Course Description**
+## **Course Description**
 Summary of basic web computing topics. Introduction to writing content for the Internet and World Wide Web. Emphasis on servers, hand coded HTML, Cascading Style Sheets and extending HTML with other Web technologies.
 
 Textbook: https://www.oreilly.com/library/view/head-first-html/9781449324469/ (Check N241 Folder)
